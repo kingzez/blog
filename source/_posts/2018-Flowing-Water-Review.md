@@ -1,12 +1,13 @@
 ---
 title: 2018 Flowing Water Review
 date: 2019-01-24 01:24:10
+categories: review
 tags: review
 ---
-
+![](https://user-gold-cdn.xitu.io/2019/1/25/16880d36eeb3f78d?w=624&h=102&f=png&s=28571)
 # One
 
-一、众所周知年初各种币火的一塌糊涂，telegram 被称为 ”币圈微信“必不可少会对其搞周边开发，研究 telegram ****相关，大概的需求点是 telegram 群管理机器人，telegram 陌生人拉群，要实现这些势必少不了对 telegram 开放 api  的研究，telegram 的协议很特殊，是独自研发的 MTProto。<!--more-->telegram 好像说的有点多了，对 telegram api 一定了解后，主要入手点是 telegram web 版，看了一下竟然是开源的，而且是使用 angularjs 开发，通过我的魔改，实现了自动拉人与收集群及用户名信息，最终数据是1000+币圈群与100w用户名，当然这些信息本身都是公开的，我只对其进行整理归类。其中使用的技术点有 nodejs，mogodb，angularjs，少量的python。
+一、众所周知年初各种币火的一塌糊涂，telegram 被称为 ”币圈微信“必不可少会对其搞周边开发，研究 telegram 相关，大概的需求点是 telegram 群管理机器人，telegram 陌生人拉群，要实现这些势必少不了对 telegram 开放 api  的研究，telegram 的协议很特殊，是独自研发的 MTProto。<!--more--> telegram 好像说的有点多了，对 telegram api 一定了解后，主要入手点是 telegram web 版，看了一下竟然是开源的，而且是使用 angularjs 开发，通过我的魔改，实现了自动拉人与收集群及用户名信息，最终数据是1000+币圈群与100w用户名，当然这些信息本身都是公开的，我只对其进行整理归类。其中使用的技术点有 nodejs，mogodb，angularjs，少量的python。
 
 # Two
 
