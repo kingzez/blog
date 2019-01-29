@@ -8,7 +8,7 @@ tags: async/await
 一般情况下 async/await 在错误处理方面，主要使用 `try/catch`，像这样。
 <!--more-->
 ```js
-const fetchData = async () => {
+const fetchData = () => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve('fetch data is me')
@@ -29,7 +29,7 @@ const fetchData = async () => {
 这么看，感觉倒是没什么问题，如果是这样呢？有多个异步操作，需要对每个异步返回的 error 错误状态进行不同的处理，以下是示例代码。
 
 ```js
-const fetchDataA = async () => {
+const fetchDataA = () => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve('fetch data is A')
@@ -37,7 +37,7 @@ const fetchDataA = async () => {
     })
 }
 
-const fetchDataB = async () => {
+const fetchDataB = () => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve('fetch data is B')
@@ -45,7 +45,7 @@ const fetchDataB = async () => {
     })
 }
 
-const fetchDataC = async () => {
+const fetchDataC = () => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve('fetch data is C')
@@ -107,7 +107,7 @@ const fetchDataC = async () => {
 
 ```js
 (async () => {
-    const fetchData = async () => {
+    const fetchData = () => {
         return new Promise((resolve, reject) => {
             setTimeout(() => {
                 resolve('fetch data is me')
@@ -124,7 +124,7 @@ const fetchDataC = async () => {
 
 ```js
 (async () => {
-    const fetchData = async () => {
+    const fetchData = () => {
         return new Promise((resolve, reject) => {
             setTimeout(() => {
                 resolve('fetch data is me')
@@ -144,7 +144,7 @@ const fetchDataC = async () => {
 
 ```js
 (async () => {
-    const fetchData = async () => {
+    const fetchData = () => {
         return new Promise((resolve, reject) => {
             setTimeout(() => {
                 resolve('fetch data is me')
