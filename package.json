@@ -19,6 +19,7 @@
     "hexo-server": "^0.3.1"
   },
   "scripts": {
-    "dev": "hexo g; hexo s"
+    "dev": "hexo g; hexo s",
+    "d": "hexo g; hexo d"
   }
 }
