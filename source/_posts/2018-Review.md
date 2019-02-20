@@ -15,7 +15,7 @@ tags: review
 
 # Three
 
-三、接触了 vue，使用 vue-cli 搭建项目，使用 express，mongoDB 完成接口服务，docker 部署上线，独自完成一个项目—代理商平台。
+三、使用 vue-cli 搭建项目，使用 express，mongoDB 完成接口服务，docker 部署上线，独自完成一个项目—代理商平台。
 
 # Four
 
