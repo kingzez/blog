@@ -15,4 +15,10 @@ tags: git
 6. [git-pull-强制覆盖local](/2017/03/20/git-pull-强制覆盖local/)
 7. [Git重写最近一次历史](/2017/04/10/git重写最近一次历史/)
 8. [Git忽略已跟踪文件的改动](/2017/04/10/Git-忽略已跟踪文件的改动/)
-9. [git stash 用于保存和恢复工作进度](/2017/05/19/git-stash-用于保存和恢复工作进度/)
+9. [git stash 用于保存和恢复工作进度](/2017/04/09/git-stash-用于保存和恢复工作进度/)
+
+> "git merge" used to allow merging two branches that have no common base by default, which led to a brand new history of an existing project created and then get pulled by an <!--more--> unsuspecting maintainer, which allowed an unnecessary parallel history merged into the existing project. The command has been taught not to allow this by default, with an escape hatch --allow-unrelated-histories option to be used in a rare event that merges histories of two projects that started their lives independently.
+
+```
+git merge --allow-unrelated-histories 允许合并无关历史记录的分支，比如两个项目
+```
