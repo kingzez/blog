@@ -272,3 +272,10 @@ custom-title:not(:defined) {
 
 #### 浏览器支持情况 [caniuse](https://caniuse.com/#search=Custom%20Elements)
 最新版的 FireFox，Safari，Chrome，使用 Chromium内核 重写的Edge，IE（就别想了），另外可以加入 [polyfill](https://github.com/webcomponents/polyfills/tree/master/packages/custom-elements) 兼容老版本的浏览器
+
+#### Web Components 相关的库
+- [Hybrids](https://github.com/hybridsjs/hybrids) is a UI library for creating Web Components with simple and functional API.
+- [LitElement](https://github.com/Polymer/lit-element) uses [lit-html](https://github.com/Polymer/lit-html) to render into the element's Shadow DOM and adds API to help manage element properties and attributes.
+Polymer provides a set of features for creating custom elements.
+- [Slim.js](http://slimjs.com/) is an opensource lightweight web component library that provides data-binding and extended capabilities for components, using es6 native class inheritance.
+- [Stencil](https://stenciljs.com/) is an opensource compiler that generates standards-compliant web components.
