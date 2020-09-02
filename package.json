@@ -1,5 +1,5 @@
 {
-  "name": "hexo-site",
+  "name": "kingzez.com",
   "version": "0.0.0",
   "private": true,
   "hexo": {
@@ -19,7 +19,7 @@
     "hexo-server": "^0.3.1"
   },
   "scripts": {
-    "dev": "hexo g; hexo s",
-    "d": "hexo g; hexo d"
+    "dev": "hexo g && hexo s",
+    "d": "hexo g && hexo d"
   }
 }
