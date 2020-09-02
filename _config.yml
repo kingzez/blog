@@ -5,10 +5,10 @@
 # Site
 title: the kingzez blog
 subtitle: step by step and never look back
-description: kingzez, blog, wangzezhi, vincentw，王泽知
+description: kingzez, blog, wangzezhi, vincentw
 author: kingzez
 language: en
-timezone:
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -85,4 +85,3 @@ deploy:
   repo: https://github.com/kingzez/kingzez.github.io.git
   branch: master
   message: Updated：{{ now('YYYY-MM-DD HH:mm:ss') }}
-
