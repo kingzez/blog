@@ -1,7 +1,7 @@
 title: 可继承的CSS属性
 date: 2016-05-15 00:35:29
-categories: CSS
-tags: CSS
+categories: css
+tags: css
 ---
 在网上搜集查找相对全一点的可继承的css属性：
 <!-- more -->

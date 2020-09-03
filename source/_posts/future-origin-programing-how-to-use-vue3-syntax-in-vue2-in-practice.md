@@ -1,7 +1,7 @@
 ---
 title: 面向未来编程，如何在 Vue2 中使用 Vue3 的语法[实践篇]
 date: 2019-07-10 13:34:07
-tags: [vue3, vue]
+tags: vue
 ---
 面向未来编程(Future-Oriented Programming)，[vue-function-api](https://github.com/vuejs/vue-function-api) 提供开发者在 Vue2.x 中使用 Vue3 的语法逻辑开发应用。(为方便以下以 Vue2 表示)
 
