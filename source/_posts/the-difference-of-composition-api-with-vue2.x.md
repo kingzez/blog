@@ -9,7 +9,7 @@ tags: vue
 ### 简单的计数器
 
 标准 API
-```vue
+```html
 <template>
   <div>
     Count is {{ count }}, count * 2 is {{ double }}
@@ -40,7 +40,7 @@ export default {
 
 
 函数 API
-```vue
+```html
 <template>
   <div>
     Count is {{ count }}, count * 2 is {{ double }}
@@ -71,7 +71,7 @@ export default {
 
 
 标准 API
-```vue
+```html
 <template>
   <div>
     <template v-if="isLoading">Loading...</template>
@@ -114,7 +114,7 @@ export default {
 
 
 函数 API
-```vue
+```html
 <template>
   <div>
     <template v-if="isLoading">Loading...</template>
@@ -155,7 +155,7 @@ export default {
 
 
 标准 API
-```vue
+```html
 <template>
   <div>
     <template v-if="isLoading">Loading...</template>
@@ -212,7 +212,7 @@ export default {
 
 
 使用函数 API
-```vue
+```html
 <template>
   <div>
     <template v-if="isLoading">Loading...</template>
@@ -285,7 +285,7 @@ export default {
 _当 _`_setup_`  与 标准 API 一起使用时， `setup` 首先会先执行，如果与标准 API 中 data 里的属性有冲突，会覆盖。
 
 
-```vue
+```html
 <template>
   <div>
     <template v-if="isLoading">Loading...</template>
