@@ -1,7 +1,7 @@
 ---
 title: webpack 模块方法 【参与开源】
 date: 2020-06-23 22:22:25
-tags:
+tags: webpack
 ---
 > 参与 webpack 中文的翻译 https://webpack.docschina.org/api/module-methods/
 
